@@ -3,7 +3,7 @@
 
 
 ## 유튜브 시연 영상 링크
-https://www.youtube.com/watch?v=wNs3FnObXH8
+https://youtu.be/ASwnUpL3pC8
 
 
 ## 사용한 스택
