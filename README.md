@@ -13,6 +13,12 @@ https://youtu.be/ASwnUpL3pC8
 <img src="https://img.shields.io/badge/javascript-000000?style=for-the-badge&logo=javascript&logoColor=white">
 </span>
 
+<h4>- Collaboration Tool</h4>
+<span>
+<img src="https://img.shields.io/badge/github.io-181717?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
+</span>
+
 ## 프로젝트 정보
 - 게임에 들어간 기능
 > 인벤토리, 설정창, 오디오, 캐릭터 이동(정보), object 반응, 맵구현, 대화창, 함정
