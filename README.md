@@ -32,7 +32,7 @@ https://youtu.be/ASwnUpL3pC8
 
 ![image](https://user-images.githubusercontent.com/106497516/225633534-20da2364-57d9-43ca-b162-ed3475724ee3.png)
 
-## 프로젝트 파일 tree
+## 프로젝트 파일 구조
 
 ```
 📦Team-Project-2D-Game
