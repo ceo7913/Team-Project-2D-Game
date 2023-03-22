@@ -32,3 +32,115 @@ https://youtu.be/ASwnUpL3pC8
 
 ![image](https://user-images.githubusercontent.com/106497516/225633534-20da2364-57d9-43ca-b162-ed3475724ee3.png)
 
+## 프로젝트 파일 tree
+
+```
+📦Team-Project-2D-Game
+ ┣ 📂.git
+ ┃ ┣ 📂hooks
+ ┃ ┃ ┣ 📜applypatch-msg.sample
+ ┃ ┃ ┣ 📜commit-msg.sample
+ ┃ ┃ ┣ 📜fsmonitor-watchman.sample
+ ┃ ┃ ┣ 📜post-update.sample
+ ┃ ┃ ┣ 📜pre-applypatch.sample
+ ┃ ┃ ┣ 📜pre-commit.sample
+ ┃ ┃ ┣ 📜pre-merge-commit.sample
+ ┃ ┃ ┣ 📜pre-push.sample
+ ┃ ┃ ┣ 📜pre-rebase.sample
+ ┃ ┃ ┣ 📜pre-receive.sample
+ ┃ ┃ ┣ 📜prepare-commit-msg.sample
+ ┃ ┃ ┣ 📜push-to-checkout.sample
+ ┃ ┃ ┗ 📜update.sample
+ ┃ ┣ 📂info
+ ┃ ┃ ┗ 📜exclude
+ ┃ ┣ 📂logs
+ ┃ ┃ ┣ 📂refs
+ ┃ ┃ ┃ ┣ 📂heads
+ ┃ ┃ ┃ ┃ ┗ 📜main
+ ┃ ┃ ┃ ┗ 📂remotes
+ ┃ ┃ ┃ ┃ ┗ 📂origin
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜HEAD
+ ┃ ┃ ┗ 📜HEAD
+ ┃ ┣ 📂objects
+ ┃ ┃ ┣ 📂info
+ ┃ ┃ ┗ 📂pack
+ ┃ ┃ ┃ ┣ 📜pack-4fdce2a1e8e3dced424099340895139ae3b6775a.idx
+ ┃ ┃ ┃ ┗ 📜pack-4fdce2a1e8e3dced424099340895139ae3b6775a.pack
+ ┃ ┣ 📂refs
+ ┃ ┃ ┣ 📂heads
+ ┃ ┃ ┃ ┗ 📜main
+ ┃ ┃ ┣ 📂remotes
+ ┃ ┃ ┃ ┗ 📂origin
+ ┃ ┃ ┃ ┃ ┗ 📜HEAD
+ ┃ ┃ ┗ 📂tags
+ ┃ ┣ 📜config
+ ┃ ┣ 📜description
+ ┃ ┣ 📜HEAD
+ ┃ ┣ 📜index
+ ┃ ┗ 📜packed-refs
+ ┣ 📂.vscode
+ ┃ ┗ 📜settings.json
+ ┣ 📂audio
+ ┃ ┣ 📜baseBgm.mp3
+ ┃ ┣ 📜changeImage.mp3
+ ┃ ┣ 📜doorOpen.mp3
+ ┃ ┣ 📜moveBgm.mp3
+ ┃ ┣ 📜누군가 도망치고 숨을 헐떡인다 효과음.mp3
+ ┃ ┣ 📜비명소리 (조금과함).mp3
+ ┃ ┣ 📜시작을 알리는 효과음.mp3
+ ┃ ┗ 📜으스스한 분위기 깜놀 효과음.mp3
+ ┣ 📂css
+ ┃ ┣ 📜reset.css
+ ┃ ┗ 📜ui.css
+ ┣ 📂data
+ ┃ ┣ 📜audio.js
+ ┃ ┣ 📜collisions.js
+ ┃ ┣ 📜portals.js
+ ┃ ┗ 📜stuffs.js
+ ┣ 📂html
+ ┃ ┗ 📜index.html
+ ┣ 📂img
+ ┃ ┣ 📂background
+ ┃ ┃ ┣ 📜backgroundAfterStg1.png
+ ┃ ┃ ┣ 📜backGroundBeforeStg1.png
+ ┃ ┃ ┣ 📜backGroundStg2.png
+ ┃ ┃ ┣ 📜ded image.png
+ ┃ ┃ ┣ 📜FG2.png
+ ┃ ┃ ┣ 📜foreGroundAfterStg1.png
+ ┃ ┃ ┣ 📜foreGroundBeforeStg1.png
+ ┃ ┃ ┣ 📜foreGroundStg2.png
+ ┃ ┃ ┗ 📜startPage.png
+ ┃ ┣ 📂character
+ ┃ ┃ ┣ 📂load
+ ┃ ┃ ┃ ┗ 📜Dr Frankenstein Face.png
+ ┃ ┃ ┣ 📜$Dr Frankenstien (resizing).png
+ ┃ ┃ ┗ 📜README.md
+ ┃ ┣ 📂playImage
+ ┃ ┃ ┣ 📜awl_1.png
+ ┃ ┃ ┣ 📜awl_2.png
+ ┃ ┃ ┣ 📜awl_3.png
+ ┃ ┃ ┣ 📜findIt.png
+ ┃ ┃ ┣ 📜ghost_1.jpeg
+ ┃ ┃ ┣ 📜ghost_2.jpeg
+ ┃ ┃ ┗ 📜knife.png
+ ┃ ┗ 📜cat.jpg
+ ┣ 📂js
+ ┃ ┣ 📂utill
+ ┃ ┃ ┣ 📜func_inventory.js
+ ┃ ┃ ┣ 📜func_stuff.js
+ ┃ ┃ ┗ 📜func_ui.js
+ ┃ ┣ 📜canvas_1.js
+ ┃ ┣ 📜canvas_2.js
+ ┃ ┣ 📜classes.js
+ ┃ ┣ 📜common.js
+ ┃ ┣ 📜playerclass.js
+ ┃ ┣ 📜README.md
+ ┃ ┗ 📜ui.js
+ ┣ 📂json
+ ┃ ┣ 📜stg1.json
+ ┃ ┣ 📜testSave.json
+ ┃ ┗ 📜untitled.json
+ ┗ 📜README.md
+
+```
+
