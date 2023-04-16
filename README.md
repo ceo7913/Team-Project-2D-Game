@@ -39,12 +39,11 @@ https://youtu.be/ASwnUpL3pC8
 </span>
 
 
-## 샘플 이미지
-![image](https://user-images.githubusercontent.com/106497516/225633745-f29cb3a4-6f5d-448c-8761-606ef7d37678.png)
-
-![image](https://user-images.githubusercontent.com/106497516/225633636-62aa98d1-a84c-4c60-82b9-51b6af5e1b84.png)
-
-![image](https://user-images.githubusercontent.com/106497516/225633534-20da2364-57d9-43ca-b162-ed3475724ee3.png)
+## 샘플 GIF (2배속)
+<div algin="center">
+<img src="https://im3.ezgif.com/tmp/ezgif-3-4afe600e37.gif" alt="3-1" width="500px">
+<img src="https://im3.ezgif.com/tmp/ezgif-3-e2921e1d38.gif" alt="3-2" width="500px">
+</div>
 
 ## 프로젝트 파일 구조
 
