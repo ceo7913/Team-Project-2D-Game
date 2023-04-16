@@ -5,7 +5,7 @@
 ## 유튜브 시연 영상 링크
 https://youtu.be/ASwnUpL3pC8
 
-## 프로젝트 목적
+## 프로젝트 목적 
 - Vanilla JS 활용능력 개선
 
 - JavaScript 알고리즘 및 자료 구조에 대한 이해
