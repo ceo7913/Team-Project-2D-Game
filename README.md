@@ -12,6 +12,19 @@ https://youtu.be/ASwnUpL3pC8
 
 - 기획능력 개선
 
+## 프로젝트 정보
+- 게임에 들어간 기능
+> 인벤토리, 설정창, 오디오, 캐릭터 이동(정보), object 반응, 맵구현, 대화창, 함정
+- 게임을 만드는데 unity 를 사용하지 않은 이유
+> 프로젝트 과정에서 JavaScript 의 활용 능력을 개선하고 순수 vanilla js 만으로 만들어 보고자 하는 욕심이 있었음
+
+## 이슈 및 배운점
+> [Canvas 로 플레이어의 위치를 출력할 때 플레이어의 위치가 맵 밖에서 출력되는 이슈] (https://github.com/ceo7913/Team_2DGame-Project/issues/1)
+
+> [배경에 입력된 충돌체의 x, y 값이 캐릭터의 이동에 따라 이동하지 않고 고정되어 있는 이슈] (https://github.com/ceo7913/Team_2DGame-Project/issues/2)
+
+> [웹페이지가 로드되기 전에도 플레이어가 움직일 수 있는 이슈] (https://github.com/ceo7913/Team_2DGame-Project/issues/3)
+
 ## 사용한 스택
 <span>
 <img src="https://img.shields.io/badge/html5-61DAFB?style=for-the-badge&logo=html5&logoColor=black">
@@ -25,18 +38,6 @@ https://youtu.be/ASwnUpL3pC8
 <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
 </span>
 
-## 프로젝트 정보
-- 게임에 들어간 기능
-> 인벤토리, 설정창, 오디오, 캐릭터 이동(정보), object 반응, 맵구현, 대화창, 함정
-- 게임을 만드는데 unity 를 사용하지 않은 이유
-> 프로젝트 과정에서 JavaScript 의 활용 능력을 개선하고 순수 vanilla js 만으로 만들어 보고자 하는 욕심이 있었음
-
-## 이슈 및 배운점
-> [Canvas 로 플레이어의 위치를 출력할 때 플레이어의 위치가 맵 밖에서 출력되는 이슈] (https://github.com/ceo7913/Team_2DGame-Project/issues/1)
-
-> [배경에 입력된 충돌체의 x, y 값이 캐릭터의 이동에 따라 이동하지 않고 고정되어 있는 이슈] (https://github.com/ceo7913/Team_2DGame-Project/issues/2)
-
-> [웹페이지가 로드되기 전에도 플레이어가 움직일 수 있는 이슈] (https://github.com/ceo7913/Team_2DGame-Project/issues/3)
 
 ## 샘플 이미지
 ![image](https://user-images.githubusercontent.com/106497516/225633745-f29cb3a4-6f5d-448c-8761-606ef7d37678.png)
