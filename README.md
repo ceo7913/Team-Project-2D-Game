@@ -41,8 +41,8 @@ https://youtu.be/ASwnUpL3pC8
 
 ## 샘플 GIF (2배속)
 <div algin="center">
-<img src="https://im3.ezgif.com/tmp/ezgif-3-4afe600e37.gif" alt="3-1" width="500px">
-<img src="https://im3.ezgif.com/tmp/ezgif-3-e2921e1d38.gif" alt="3-2" width="500px">
+<img src="https://im3.ezgif.com/tmp/ezgif-3-4afe600e37.gif" alt="3-1" width="400px">
+<img src="https://im3.ezgif.com/tmp/ezgif-3-e2921e1d38.gif" alt="3-2" width="400px">
 </div>
 
 ## 프로젝트 파일 구조
