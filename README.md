@@ -43,7 +43,7 @@ https://youtu.be/ASwnUpL3pC8
 <div algin="center">
 <img src="https://user-images.githubusercontent.com/106497516/232308806-40bca2d7-07af-4427-999b-61c11bfc2b81.gif" alt="3-1" width="400px">
 <img src="https://user-images.githubusercontent.com/106497516/232308804-929e89c3-38d6-43a1-8acc-dd272c974b0a.gif" alt="3-2" width="400px">
-<img src="https://user-images.githubusercontent.com/106497516/232320663-827372f7-bc34-47e5-a5bd-1c3cc0565d8a.gif" alt="3-3" width="400px">
+<img src="https://user-images.githubusercontent.com/106497516/232321161-88444b5b-1d66-4fd4-a9fb-d3cd13deca94.gif" alt="3-3" width="400px">
 </div>
 
 ## 프로젝트 파일 구조
