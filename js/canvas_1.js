@@ -75,7 +75,7 @@ let gameover = function () {
         }
         location.reload("_play_page");
 
-    }, 3000);
+    }, 2000);
 
 }
 
@@ -621,21 +621,8 @@ window.addEventListener(
                 pauseMoveM()
                 break;
         }
-        // console.log(keys)
-        //===================================================이 위치에 값 넣어주면 됨
-        // console.log(player.position)
-        // console.log(`backgorund x ${movables[0].position.x} y ${movables[0].position.y}`)
-        // console.log(`boundary x ${movables[1].position.x} y ${movables[1].position.y}`)
-        // console.log(`foreground x ${movables[2].position.x} y ${movables[2].position.y}`)
-        // console.log(keys)
     }
 )
-//  if(player.moving === true){
-//        moveBgm()
-//     }else if(player.moving === false){
-
-//         pauseMoveM()
-//     }
 
 
 const divArr = document.querySelectorAll('container_box>div');
