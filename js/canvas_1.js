@@ -26,10 +26,8 @@ const offsetSt1 = {
 };
 
 const stuffsMapSt1 = createStuffObj(stuffsStg1, c, offsetSt1);
-console.log(stuffsMapSt1);
 
 const portalsMapSt1 = createPortalObj(portalsStg1, c, offsetSt1);
-console.log(portalsMapSt1);
 
 
 // 충돌 부분 2차원배열 만들어주는 부분
@@ -46,8 +44,6 @@ collisionsMapSt1.forEach((row, i) => {
             }))
     })
 })
-
-console.log(boundariesSt1);
 
 // 이미지 불러온 부분
 const image = new Image()
@@ -108,8 +104,6 @@ const awlSt1 = new Sprite({
         long: awlImageLong
     }
 });
-console.log(awlSt1.position.x);
-console.log(awlSt1.position.y);
 
 
 // 캐릭터 위치
