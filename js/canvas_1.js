@@ -1,7 +1,6 @@
 const canvas = document.getElementById('_stg1');
 const c = canvas.getContext('2d');
 
-// console.log(collisions);
 canvas.width = 1024;
 canvas.height = 576;
 let mapState = "_start_page";
@@ -10,8 +9,7 @@ const collisionsMapSt1 = [];
 // 70인 이유는 tiled상 지도의 너비가 70이기 때문
 for (let i = 0; i < collisionsStg1.length; i += 70) {
     collisionsMapSt1.push(collisionsStg1.slice(i, 70 + i))
-    // console.log(collisions.slice(i, 70 + i)); 이렇게 반복하면서 배열안에 타일번호를 콘솔로
-    // 확인할 수 있다.
+    // console.log(collisions.slice(i, 70 + i)); 이렇게 반복하면서 배열안에 타일번호를 콘솔로 확인할 수 있다.
 }
 
 // 송곳을 나오게 하는 컨트롤러
@@ -109,7 +107,7 @@ const awlSt1 = new Sprite({
 // 캐릭터 위치
 const playerSt1 = new Sprite({
     position: {
-        // 맵 가운데에 위치하게 고
+        // 맵 가운데에 위치하게
         x: canvas.width / 2 - 180 / 4 / 2,
         y: canvas.height / 2 - 320 / 6
     },
@@ -262,8 +260,6 @@ function attack(start) {
 // 플레이어와 충돌 처리 한 부분 값 비교해서 충돌 여부 확인해주는 곳
 // rectangle1가 플레이어 이미지
 function rectangularCollision({ rectangle1, rectangle2 }) {
-    // console.log(rectangle1);
-    // console.log(rectangle2);
     if (rectangle1.position.x + rectangle1.width >= rectangle2.position.x &&
         rectangle1.position.x <= rectangle2.position.x + rectangle2.width &&
         rectangle1.position.y <= rectangle2.position.y + rectangle2.height &&
