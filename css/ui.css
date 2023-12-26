@@ -731,3 +731,69 @@
     width: 1024px;
     height: 576px;
   }
+
+  .description-box{
+    z-index: 9999;
+    width: auto;
+    height: auto;
+    position: absolute;
+    padding: 10px;
+    padding-right: 4%;
+    top: 0;
+    left: 0;
+    background: rgba(255,255,255,0.4);
+    border: 1px solid rgba(255,255,255,0.1);
+    flex-direction: column;
+}
+.description-box > .box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.close-button{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    background: rgba(0,0,0,0.7);
+    color: rgba(255,255,255,0.7);
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 5px;
+    padding-inline: 8px;
+    border-radius: 100%;
+    transition: 500ms;
+}
+.close-button:hover{
+    background: rgba(0,0,0,1);
+    color: rgba(255,255,255,1);
+}
+
+
+.conmmand-key-box{
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+    align-items: center;
+}
+  
+.conmmand-key-box > .text{
+    color: white;
+}
+.command-key{
+    display: flex;
+    gap: 5px;
+}
+.command-key > div{
+    width: auto;
+    height: auto;
+    padding-block: 4px;
+    padding-inline: 7px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0vw 0.086vw 0.086vw 0vw rgba(0, 0, 0, 0), 0vw 0.206vw 0.206vw 0vw rgba(0, 0, 0, 0.00996), 0vw 0.375vw 0.375vw 0vw rgba(0, 0, 0, 0.01815), 0vw 0.623vw 0.623vw 0vw rgba(0, 0, 0, 0.03017), 0vw 1.006vw 1.006vw 0vw rgba(0, 0, 0, 0.04875), 0vw 1.646vw 1.646vw 0vw rgba(0, 0, 0, 0.07975), 0vw 2.836vw 2.836vw 0vw rgba(0, 0, 0, 0.1374), 0vw 5.16vw 5.16vw 0vw rgba(0, 0, 0, 0.25);
+}
