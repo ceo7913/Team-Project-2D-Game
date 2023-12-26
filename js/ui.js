@@ -266,25 +266,3 @@ document.querySelectorAll('.item_td').forEach(e => {
         this.classList.add('active');
     })
 })
-
-const box = document.querySelector('.box');
-const descriptionBox = document.querySelector('.description-box')
-const closeButton = document.querySelector('.close-button')
-
-const clickBtn = () => {
-    if (box.style.display == 'flex') {
-        console.log('클릭')
-        box.style.display = 'none'
-        closeButton.style.cssText = 'color:black; position: relative; background: rgba(255,255,255,0.7);';
-        descriptionBox.style.cssText = 'background: transparent; border:none; left: 20px; top:20px'
-        closeButton.innerHTML = '▶'
-    } else {
-        box.style.display = 'flex'
-        closeButton.style.cssText = 'position: absolute'
-        closeButton.innerHTML = 'X'
-        descriptionBox.style.cssText =
-            'background: rgba(255,255,255,0.4); border: 1px solid rgba(255,255,255,0.1);'
-    }
-};
-
-closeButton.addEventListener('click', clickBtn)
