@@ -4,6 +4,9 @@
 ## 프로젝트 멤버
 임준우, 이지니, 이수진
 
+## 배포 링크
+https://paranoia-project.netlify.app
+
 ## 유튜브 시연 영상 링크
 https://youtu.be/ASwnUpL3pC8
 
