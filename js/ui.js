@@ -31,9 +31,9 @@ _start_btn.onclick = function () {
     });
     paragraph(prologText);
     document.querySelectorAll('#container_box>div').forEach(el => {
-        el.style.zIndex = "";
+        el.style.display = 'none';
     })
-    _prolog.style.zIndex = 999;
+    _prolog.style.display = 'flex';
     mapState = "_prolog";
 };
 // 하위 인벤토리 창이 먼저 뜨고 거기에 엑스레이 필름을 누르면  상위 보드 뜨게 하기

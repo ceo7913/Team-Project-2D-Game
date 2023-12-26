@@ -107,6 +107,8 @@
 
 /* 게임오버 창 */
 #_game_over {
+    /* change */
+    display: none;
     background-image: url("/img/background/ded\ image.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -130,7 +132,8 @@
     background-size: cover;
     width: 100%;
     height: 576;
-    display: flex;
+    /* change */
+    display: none;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
@@ -262,7 +265,8 @@
     background-size: cover;
     width: 1024;
     height: 576;
-    display: flex;
+    /* change */
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -361,7 +365,8 @@
     background-size: cover;
     width: 1024;
     height: 576;
-    display: flex;
+    /* change */
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -460,7 +465,8 @@
     background-size: cover;
     width: 1024;
     height: 576;
-    display: flex;
+    /* change */
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -572,7 +578,8 @@
     background-size: cover;
     width: 100%;
     height: 576px;
-    display: flex;
+    /* change */
+    display: none;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
@@ -605,7 +612,8 @@
     background-size: cover;
     width: 100%;
     height: 576px;
-    display: flex;
+    /* change */
+    display: none;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
@@ -655,7 +663,8 @@
     width: 1024;
     height: 576;
     background-color: black;
-    display: flex;
+    /* change */
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
