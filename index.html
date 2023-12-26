@@ -12,7 +12,6 @@
         background-color: rgb(15, 15, 15);
         justify-content: center;
         align-items: center;
-
     }
 </style>
 </head>
@@ -29,14 +28,9 @@
     <div id="_play_page">
         <canvas id="_stg1"></canvas>
     </div>
-    <!-- <div id="_play_page2">
-        <canvas id="_stg2"></canvas>
-    </div>aw -->
+
     <!-- 메인페이지 그림(+게임로고) -->
     <div id="_start_page">
-        <!-- <embed id="mainSound" src="./audio/1_bgm_5461177004229516923.mp3" hidden="true" loop="true" volume="0"></embed> -->
-        <!-- <audio src="./audio/1_bgm_5461177004229516923.mp3" hidden="true"
-        autoplay="true"></audio> -->
         <div id="_title">
             <span>paranoia</span>
         </div>
@@ -275,64 +269,7 @@
 </div>
 
     </body>
-        <script>
-            // content load 후 0.5초 뒤 새로고침
-            const reLoadPage = ()=>{
-                if(!sessionStorage.getItem('load')){
-                        sessionStorage.setItem('load','true')
-                        setTimeout(function(){
-                            console.log('새로고침')
-                            window.location.reload()
-                        },500)
-                }
-            }
-
-            const box = document.querySelector('.box');
-            const descriptionBox = document.querySelector('.description-box')
-            const closeButton = document.querySelector('.close-button')
-        
-            const loadButtonState = ()=>{
-                const buttonState = localStorage.getItem('buttonState');
-                if (buttonState === 'visible') {
-                    box.style.display = 'flex';
-                    closeButton.style.cssText = 'position: absolute';
-                    closeButton.innerHTML = 'X';
-                    descriptionBox.style.cssText =
-                    'background: rgba(255,255,255,0.4); border: 1px solid rgba(255,255,255,0.1);';
-                } else {
-                    box.style.display = 'none';
-                    closeButton.style.cssText = 'color:black; position: relative; background: rgba(255,255,255,0.7);';
-                    descriptionBox.style.cssText = 'background: transparent; border:none; left: 20px; top:20px';
-                    closeButton.innerHTML = '▶';
-                }
-            }
-            const saveButtonState = () =>{
-                const buttonState = box.style.display === 'flex' ? 'visible' : 'hidden';
-                localStorage.setItem('buttonState', buttonState);
-            }
-
-            const clickBtn = () => {
-                if (box.style.display == 'flex') {
-                    box.style.display = 'none'
-                    closeButton.style.cssText = 'color:black; position: relative; background: rgba(255,255,255,0.7);';
-                    descriptionBox.style.cssText = 'background: transparent; border:none; left: 20px; top:20px'
-                    closeButton.innerHTML = '▶'
-                } else {
-                    box.style.display = 'flex'
-                    closeButton.style.cssText = 'position: absolute'
-                    closeButton.innerHTML = 'X'
-                    descriptionBox.style.cssText =
-                    'background: rgba(255,255,255,0.4); border: 1px solid rgba(255,255,255,0.1);'
-                }
-                saveButtonState();
-            };
-
-            reLoadPage();
-            loadButtonState(); // 페이지가 로드될 때 초기 상태를 설정하기 위해 호출
-            //saveButtonState 상태가 변경될 때(클릭 후) 마다 호출
-            closeButton.addEventListener('click', clickBtn)
-            
-        </script>
+        <script src="/js/reload.js"></script>
         <script src="/data/audio.js"></script>
         <script
         src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
@@ -340,16 +277,14 @@
         crossorigin="anonymous"
         referrerpolicy="no-referrer"
         ></script>
-        <script src="/data/collisions.js"></script>
         <script src="/data/portals.js"></script>
-        <!-- <script src="/js/playerclass.js"></script> -->
         <script src="/js/classes.js"></script>
         <script src="/data/stuffs.js"></script>
         <script src="/js/common.js"></script>
         <script src="/js/utill/func_inventory.js"></script>
-        <script src="/js/utill/func_ui.js"></script>
         <script src="/js/utill/func_stuff.js"></script>
+        <script src="/js/utill/func_ui.js"></script>
+        <script src="/data/collisions.js"></script>
         <script src="/js/canvas_1.js"></script>
-        <!-- <script src="/js/canvas_2.js"></script> -->
         <script src="/js/ui.js"></script>
 </html>
