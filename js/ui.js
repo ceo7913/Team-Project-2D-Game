@@ -269,10 +269,11 @@ document.querySelectorAll('.item_td').forEach(e => {
 
 const box = document.querySelector('.box');
 const descriptionBox = document.querySelector('.description-box')
-const conmmandKeyBox = document.querySelector('.conmmand-key-box')
 const closeButton = document.querySelector('.close-button')
-closeButton.addEventListener('click', () => {
+
+const clickBtn = () => {
     if (box.style.display == 'flex') {
+        console.log('클릭')
         box.style.display = 'none'
         closeButton.style.cssText = 'color:black; position: relative; background: rgba(255,255,255,0.7);';
         descriptionBox.style.cssText = 'background: transparent; border:none; left: 20px; top:20px'
@@ -284,4 +285,6 @@ closeButton.addEventListener('click', () => {
         descriptionBox.style.cssText =
             'background: rgba(255,255,255,0.4); border: 1px solid rgba(255,255,255,0.1);'
     }
-})
+};
+
+closeButton.addEventListener('click', clickBtn)
