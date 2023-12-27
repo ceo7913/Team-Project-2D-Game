@@ -7,9 +7,9 @@ const reLoadPage = () => {
    if (!sessionStorage.getItem('load')) {
       sessionStorage.setItem('load', 'true')
       setTimeout(function () {
-         // alert('새로고침 완료')
+         alert('GAME START')
          window.location.reload()
-      }, 500)
+      }, 1000)
    }
 }
 
